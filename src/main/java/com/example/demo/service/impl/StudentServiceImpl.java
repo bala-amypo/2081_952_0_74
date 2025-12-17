@@ -2,7 +2,7 @@
 
  import org.springframework.beans.factory.annotation.Autowired;
  import org.springframework.stereotype.Service;
-
+ import java.util.list;
  import com.example.demo.service.StudentService;
  import com.example.demo.repository.StudentRepository;  
  import com.example.demo.entity.Student;
@@ -18,6 +18,6 @@
     }
     @Override
     public List<Student> getAllStudents(){
-        
+        return stdrepo.findAll();
     }
  }
