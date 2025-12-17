@@ -13,7 +13,7 @@
     StudentRepository stdrepo;
     @Override
     public Student poststudent(Student st){
-        return 
+        return stdrepo.save(st);
 
     }
  }
