@@ -16,4 +16,8 @@
         return stdrepo.save(st);
 
     }
+    @Override
+    public List<Student> getAllStudents(){
+        
+    }
  }
