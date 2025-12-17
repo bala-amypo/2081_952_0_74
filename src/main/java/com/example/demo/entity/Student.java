@@ -26,11 +26,19 @@ public class Student{
     public void setdept(String dept){
         this.dept=dept;
     }
-    public LocalDate getd(){
-        return dept;
+    public LocalDate getdob(){
+        return dob;
     }
-    public void setdob(LocalDate name){
-        this.id=id;
+    public void setdob(LocalDate dob){
+        this.dob=dob;
     }
+    public float getcgpa(){
+        return cgpa;
+    }
+    public void setcgpa(float cgpa){
+        this.cgpa=cgpa;
+    }
+    public Student(Long id,string name,string )
+
 
 }
