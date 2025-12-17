@@ -11,5 +11,14 @@ public class Student{
     public Long getId(){
         return id;
     }
-    public void s
+    public void setId(Long id){
+        this.id=id;
+    }
+    public String getName(String Name){
+        this.name=name;
+    }
+    public void setName(String name){
+        this.id=id;
+    }
+
 }
