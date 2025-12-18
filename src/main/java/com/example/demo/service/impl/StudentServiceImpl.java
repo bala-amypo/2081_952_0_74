@@ -21,7 +21,7 @@
         return stdrepo.findAll();
     }
     @Override
-    public Student getById(Long Id){
-        stdrepo.
+    public Optional<Student> getById(Long Id){
+         return stdrepo.
     }
  }
