@@ -1,7 +1,7 @@
 package com.example.demo.entity;
 
 import java.time.*;
-import .
+import jakarta.validation.constraints.*;
 import jakarta.persistence.*;
 @Entity
 public class Student{
