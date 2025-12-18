@@ -20,4 +20,8 @@
     public List<Student> getAllStudents(){
         return stdrepo.findAll();
     }
+    @Override
+    public Student getById(Long Id){
+        stdrepo.
+    }
  }
