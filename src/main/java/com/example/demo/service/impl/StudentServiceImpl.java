@@ -33,6 +33,15 @@ public class StudentServiceImpl implements StudentService {
         }
     }
     @override
-    public 
+    public String deleteData(Long id){
+        boolean status=stdrepo.existsById(id);
+        if(status){
+            stdrepo.deleteById(id);
+            return "Student deleted Successfully";
+        }else{
+            return "Student with ID" +id+" not found ";
+        }
+
+    }
 
 }
